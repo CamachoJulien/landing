@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+	margin: 20px 20px;
+	background-color: rgb(192,192,192);
+	flex-wrap: wrap;
+	flex-basis: 20px;
+	flex-grow: 1;
+
+
+}
+.card img {
+  width: 150px;
+  border-radius: 10px;
+}
+.card a {
+  flex-grow: 1;
+  padding-left: 10px;
+  font-size: 15px; 
+  text-align: center;
+  background-color: rgb(59, 62, 60) ;
+  flex-basis: 10px;
+  color: rgb(173, 223, 230);
+}
+.card a:hover {
+  color: rgb(203, 79, 79);
+  transition: color 1s ease;
+}
+.card{
+  flex-basis: 20px;
+	flex-grow: 1;
+	margin: 10px;
+}
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+  margin: 20px 20px;
+}
